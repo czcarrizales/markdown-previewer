@@ -1,0 +1,75 @@
+#editor {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding: .5rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+#editor-wrapper {
+    width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+    border: none;
+    box-shadow: 0 5px 15px black;
+}
+
+#editor-title {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+#preview {
+    padding: 1rem;
+    background-color: white;
+}
+
+#preview-title {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+#preview-wrapper {
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 800px;
+    box-shadow: 0 0 20px hwb(355 33% 0%);
+}
+
+img {
+    width: 200px;
+}
+
+#main-title {
+    text-align: center;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+#website-creator {
+    text-align: center;
+    font-size: .8rem;
+    margin: 0;
+    margin-top: .2rem;
+}
+
+p > code {
+    padding: .5rem;
+}
+
+code {
+    background-color: black;
+    color: rgb(1, 225, 1);
+    font-weight: bold;
+}
+
+pre {
+    display: inline-block;
+    padding: .5rem;
+    background-color: black;
+}
