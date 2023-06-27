@@ -25,6 +25,7 @@
 #preview {
     padding: 1rem;
     background-color: white;
+    margin-bottom: 100px;
 }
 
 #preview-title {
@@ -35,10 +36,14 @@
 }
 
 #preview-wrapper {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3rem;
     max-width: 800px;
-    box-shadow: 0 0 20px hwb(355 33% 0%);
+    box-shadow: 0 0 20px hwb(0 0% 100%);
+    border: 1px solid black;
 }
 
 img {
